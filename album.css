@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #111;
+}
+
+header {
+    margin: 1rem;
+    padding-bottom: 100px;
+}
+
+header a {
+    font-size: 1.2rem;
+    font-family: "Oswald", sans-serif;
+    color: #E0CA3C;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #948420;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    max-width: 800px;
+    margin: auto;
+
+    color: #E0CA3C;
+}
+
+main h1 {
+    font-size: 2.8rem;
+    font-family: "Oswald", sans-serif;
+}
+
+main p {
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+main .social h2 {
+    font-family: "Oswald", sans-serif;
+}
+
+main .social .links a {
+    color: #E0CA3C;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    transition: all .2s;
+}
+
+main .social .links a:hover {
+    color: #948420;
+    font-size: 1.6rem;
+}
+
+@media(max-width: 550px) {
+    main {
+        max-width: 350px;
+    }
+
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main p {
+        line-height: 25px;
+    }
+
+    main .social .links a {
+        font-size: 1.2rem;
+    }
+}
