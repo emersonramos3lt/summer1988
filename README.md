@@ -12,7 +12,7 @@ animation that create a unique and appealing design.
 # Project Screenshot
 
 ## Index Page
-![Screenshot](./screenshot/img1)
+![Screenshot](./screenshot/img1.PNG)
 
 ## Album Page
-![Screenshot](./screenshot/img2)
+![Screenshot](./screenshot/img2.PNG)
