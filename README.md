@@ -4,10 +4,11 @@
 feel and with colors reminiscent of summer. I use several animations such as scrolling and appear 
 animation that create a unique, responsive and appealing design.
 
-# Main Tools
+# Main Features
 - HTML and CSS
 - JavaScript
 - Motion design
+- JS animations 
 
 # Project Screenshot
 
